@@ -1,0 +1,173 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #5c5b5b;
+}
+body{
+    background-color: #f6f6f6;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    image-rendering: optimizeQuality
+}
+/*
+    header
+*/
+header{
+    background-color: #008484;
+    height: 70px;
+}
+header *{
+    color: white;
+}
+header h1{
+    margin-top: 14px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    float: left;
+}
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+header ul li a:hover{
+    transform: 0.5s;
+    background-color: #006669;
+}
+header ul li ul{
+    position: absolute;
+    top: 69px;
+    display: none;
+    width: 180px;
+    z-index: 99999;
+}
+header ul li:hover ul{
+    display: block;
+}
+header ul li ul li{
+    width: 100%;
+}
+header ul li ul li a{
+    padding: 10px;
+    background-color: white;
+    color: #008489;
+}
+/*
+    slider
+*/
+.carousel-item img{
+    height: 500px;
+}
+.slider_title{
+    text-align: center;
+    padding: 30px;
+}
+#carouselExampleCaptions h5{
+    background-color: #5c5b5b9d;
+    color: white;
+    font-size: 30px;
+    padding: 10px 30px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.carousel-inner{
+    border-radius: 5px;
+}
+/* main */
+.main-content .last_publications{
+    margin: 30px 0;
+}
+.main-content .post{
+    margin-bottom: 3em;
+}
+.main-content .post_text{
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+/* main end */
+
+/* sidebar */
+.search{
+    margin-top: 98px;
+}
+.sidebar .section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+/* single post */
+.single_post .info{
+    margin: 20px auto;
+}
+.single_post .info i{
+    display: inline-block;
+    margin-right: 20px;
+}
+.single_post a{
+    text-decoration: underline;
+}
+
+/* регистрация */
+.reg_form h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.post_image{
+    width: 100%;
+    max-height: 252px;
+    height: 100%;
+}
+.title_of_post{
+    word-break: break-all;
+}
+.fa-calendar{
+    float: right;
+}
+.post p{
+    word-break: break-all;
+
+}
+.single_post_text p{
+    word-break: break-all;
+
+}
+.single_img{
+    width: 100%;
+}
+.single_img img{
+    width: 100%;
+    height: 600px;
+}
+.single_post img{
+    max-width: 958px;
+ 
+}
+.scrooll_comments{
+    position: fixed;
+    top: 300px;
+    left: 10px;
+    cursor: pointer;
+}
