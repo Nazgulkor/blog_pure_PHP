@@ -1,5 +1,5 @@
 <?php
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/app/controllers/topics.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/app/controllers/topics.php";
 
 
 $page= isset($_GET['page']) ? $_GET['page'] : 1;

@@ -1,5 +1,5 @@
 <?php
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/app/database/db.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/app/database/db.php";
 include 'path.php';
 if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['topic_id'])){
   $topic = select_one('topics', ["id" => $_GET['topic_id']]);

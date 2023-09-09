@@ -1,7 +1,7 @@
 <?php
 
 
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/app/controllers/topics.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/app/controllers/topics.php";
 $post = select_one('posts', ['id' => $_GET['post_id']]);
 $user = select_one('users', ['id' => $post['id_user']]);
 $topics = select_all('topics');
@@ -22,7 +22,7 @@ update('posts', $_GET['post_id'], ['views' => $post['views'] + 1]);
 </head>
 
 <body>
-  <div class="scrooll_comments"><i class="fa-solid fa-comment fa-2xl"></i></div>
+  <div class="scrooll_comments"><i class="fa-regular fa-comment fa-beat fa-2xl"></i></div>
   <?php
   include "./app/includes/header.php";
   ?>

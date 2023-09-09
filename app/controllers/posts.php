@@ -1,6 +1,6 @@
 <?php
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/path.php";
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/app/database/db.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/path.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/app/database/db.php";
 
 
 $topics = select_all('topics');

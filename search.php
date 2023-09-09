@@ -1,5 +1,5 @@
 <?php
-include "$_SERVER[DOCUMENT_ROOT]/bookproject/app/database/db.php";
+include "$_SERVER[DOCUMENT_ROOT]/blog_pure_PHP/app/database/db.php";
 include 'path.php';
 if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['search_str'])){
   if($_POST['search_str'] === '') header('Location: index.php');

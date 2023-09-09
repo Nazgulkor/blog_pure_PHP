@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/bookproject/app/controllers/comments.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/blog_pure_PHP/app/controllers/comments.php";
 ?>
 <div class="comments col-md-12 col-12 ">
     <h3>Оставить комментарий</h3>
